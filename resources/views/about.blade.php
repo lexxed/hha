@@ -4,13 +4,14 @@
 
     <div class="container">
     <h1>About Us</h1>
-		We are leading Singapore online distributor of mostly Innovative Ladies Products which include: <br>
+		We are leading Singapore distributor of mostly Innovative Ladies Products which include: <br>
 		* Beauty Skin Care<br>
 		* Beauty Tools<br>
 		* Beauty Health<br>
 		* Slimming & Lose Weight Products<br>
 		* Creative Household home products<br>
 		* Accessories & Jewellery<br>
+		* Crystal Collagen Masks<br>
 		* Gifts<br>
 		* Many more!!<br><br>
 

@@ -49,7 +49,7 @@
                     <input type="submit" class="btn btn-success btn-lg" value="Buy Now">
                 </form>  
                 <br><br>
-                <img src="{{ asset('img/wepayshippingsmall.png') }}" alt="product images">
+                <img src="{{ asset('img/wepayshippingsmall.png') }}" alt="we pay shipping" class="img-thumbnail img-thumbnail-noborder">
                 
             </div> <!-- end col-md-8 -->
         </div> <!-- end row -->   
