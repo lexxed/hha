@@ -12,6 +12,7 @@
 		* Creative Household home products<br>
 		* Accessories & Jewellery<br>
 		* Crystal Collagen Masks<br>
+		* Neck Masks<br>
 		* Gifts<br>
 		* Many more!!<br><br>
 
