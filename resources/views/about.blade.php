@@ -3,7 +3,7 @@
 @section('content')
 
     <div class="container">
-    <h1>About Us</h1>
+    <h1>About HHA</h1>
 		We are leading Singapore distributor of mostly Innovative Ladies Products which include: <br>
 		* Beauty Skin Care<br>
 		* Beauty Tools<br>
