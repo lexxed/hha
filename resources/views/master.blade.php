@@ -55,7 +55,8 @@
 
     <footer>
       <div class="container">
-        <p class="text-muted">By <a href="#">{{ config('constants.domainUrl') }}</a></p>
+        <p class="text-muted">© Copyright 2017, <a href="{{ url('/') }}">{{ config('constants.footercopyright') }}</a></p>
+        <p class="text-muted">VBOX 886580 Singapore 919191</p>
       </div>
     </footer>
 

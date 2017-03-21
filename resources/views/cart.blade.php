@@ -65,13 +65,14 @@
                             <form action="{{ url('cart', [$item->rowId]) }}" method="POST" class="side-by-side">
                                 {!! csrf_field() !!}
                                 <input type="hidden" name="_method" value="DELETE">
-                                <input type="submit" class="btn btn-danger btn-sm" value="Remove">
+                                <input type="submit" class="btn btn-danger btn-sm" value="remove">
                             </form>
-
+                            {{--
                             <form action="{{ url('switchToWishlist', [$item->rowId]) }}" method="POST" class="side-by-side">
                                 {!! csrf_field() !!}
                                 <input type="submit" class="btn btn-success btn-sm" value="To Wishlist">
                             </form>
+                            --}}
                         </td>
                     </tr>
 
@@ -84,11 +85,19 @@
                         <td></td>
                         <td></td>
                     </tr>
+                  <tr>
+                        <td class="table-image"></td>
+                        <td></td>
+                        <td class="small-caps table-bg" style="text-align: right">Shipping</td>
+                        <td>$0.00</td>
+                        <td></td>
+                        <td></td>
+                    </tr>                    
 
                     <tr class="border-bottom">
                         <td class="table-image"></td>
                         <td style="padding: 40px;"></td>
-                        <td class="small-caps table-bg" style="text-align: right">Your Total</td>
+                        <td class="small-caps table-bg" style="text-align: right">Total SGD</td>
                         <td class="table-bg">${{ Cart::total() }}</td>
                         <td class="column-spacer"></td>
                         <td></td>
@@ -97,7 +106,7 @@
                 </tbody>
             </table>
 
-            <a href="{{ url('/shop') }}" class="btn btn-primary btn-lg">Continue Shopping</a> &nbsp;
+            {{--    <a href="{{ url('/shop') }}" class="btn btn-primary btn-lg">Continue Shopping</a> &nbsp; --}}
             <a href="{{ url('/checkout') }}" class="btn btn-success btn-lg">Proceed to Checkout</a>
 
             
