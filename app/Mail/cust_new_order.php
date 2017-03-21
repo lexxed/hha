@@ -37,6 +37,12 @@ class cust_new_order extends Mailable
      */
     public function build()
     {
-        return $this->view('emails.cust_new_order');
+        //return $this->view('emails.cust_new_order');
+
+        $subject = 'Your Order - hhajellypaper.com';
+
+        return $this->view('emails.cust_new_order')
+                    ->subject($subject);
+
     }
 }

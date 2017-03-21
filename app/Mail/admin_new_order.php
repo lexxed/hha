@@ -37,6 +37,10 @@ class admin_new_order extends Mailable
      */
     public function build()
     {
-        return $this->view('emails.admin_new_order');
+        //return $this->view('emails.admin_new_order');
+        $subject = 'New Order - '. $this->customerinformation->name;
+
+        return $this->view('emails.admin_new_order')
+                    ->subject($subject);        
     }
 }

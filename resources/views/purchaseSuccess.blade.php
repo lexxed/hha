@@ -4,7 +4,7 @@
 
     <div class="container">
         <p>
-        	<a href="{{ url('shop') }}">Home</a> / 
+        	<a href="{{ url('/') }}">Home</a> / 
         	<a href="{{ url('cart') }}">Cart</a> / 
             <a href="{{ url('checkout') }}">Customer Information</a> / 
         	Order Confirmation
@@ -13,14 +13,11 @@
 
         Thank you for your order.
 
-        You can track your orders here.
+        You can track your orders at <a href="{{ url('track-order') }}">Track your order page</a>
+        <br><br>
+        <a href="{{ url('shop') }}">Click here to continue shopping</a>
         <br>
-        Continue Shopping.
-
-
-
-
-        </div><!-- row -->
 
     </div><!-- container -->
+    <div class="spacer"></div>
 @endsection                
