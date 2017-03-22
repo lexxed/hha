@@ -1,15 +1,19 @@
 Hi {{ $customerinformation->name }},
-<br>
+<br><br>
 Thank you for your order.
 <br>
 Your orders are :<br>
 @foreach ($cartitem as $item)
     {{ $item->qty }} x {{ $item->name }}<br>
 @endforeach
+<br>
+Orders are usually shipped within 2 working days.
 <br><br>
-This is your order id :
-<br>
-You can track your orders here.
-<br>
-Thank you,
-Sarah
+You will be emailed the tracking number as soon as it is shipped.
+<br><br>
+You can track your orders at :<br>
+http://hhajellypaper.com/track-order
+<br><br>
+Thank you,<br>
+Sarah<br>
+{{ env('MAIL_FROM_ADDRESS') }}
