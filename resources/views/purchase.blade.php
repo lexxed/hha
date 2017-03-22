@@ -33,7 +33,7 @@
         <div class="row">
 	        <div class="col-md-6">
 
-            <b>Credit Card</b><img src="{{ asset('img/lock.png') }}" alt="lock" class="img-thumbnail img-thumbnail-noborder">
+            <b>Credit Card Payment</b><img src="{{ asset('img/lock.png') }}" alt="lock" class="img-thumbnail img-thumbnail-noborder">
             <br><br>
 
             <form action="/purchase" method="POST">
