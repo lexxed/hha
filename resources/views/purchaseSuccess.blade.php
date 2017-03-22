@@ -11,7 +11,7 @@
         </p>
         <h1>Order Confirmation</h1>
 
-        Thank you for your order.
+        Thank you for your order.<br><br>
 
         You can track your orders at <a href="{{ url('track-order') }}">Track your order page</a>
         <br><br>

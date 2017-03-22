@@ -12,7 +12,7 @@ Orders are usually shipped within 2 working days.
 You will be emailed the tracking number as soon as it is shipped.
 <br><br>
 You can track your orders at :<br>
-http://hhajellypaper.com/track-order
+http://{{ config('constants.domainUrl') }}/track-order
 <br><br>
 Thank you,<br>
 Sarah<br>

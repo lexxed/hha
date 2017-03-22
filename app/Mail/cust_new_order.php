@@ -39,7 +39,7 @@ class cust_new_order extends Mailable
     {
         //return $this->view('emails.cust_new_order');
 
-        $subject = 'Your Order - hhajellypaper.com';
+        $subject = 'Your Order - '. config('constants.domainUrl');
 
         return $this->view('emails.cust_new_order')
                     ->subject($subject);
