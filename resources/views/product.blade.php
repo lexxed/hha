@@ -1,6 +1,7 @@
 @extends('master')
 
-@section('title', $product->name)
+@section('title', 'HHA Royal Jelly Paper 100pcs Wholesale Prices HHA&#174;')
+@section('description', 'Buy HHA Royal Jelly Paper Free Shipping at Bulk Prices.')
 
 @section('content')
 

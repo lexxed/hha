@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>@yield('title')</title>
     <meta name="description" content="@yield('description')">
+
     <!-- Mobile Specific Meta -->
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <!-- Store CSRF token for AJAX calls -->

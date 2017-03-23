@@ -1,8 +1,8 @@
 @extends('master')
 
-@section('title', config('constants.brandName'))
-@section('description', 'HHA Royal Jelly Paper. Best Selling Make Up Remover.')
-
+@section('title', 'HHA Royal Jelly Paper reviews, photo | Wholesale Prices HHA&#174;')
+@section('description', 'Free Shipping and Returns. #1 Best Selling Portable Oil Cleanser and Makeup Remover that&#039;s gentle on the skin. Botanical Formula, Antibacterial')
+       
 @section('content')
 
     <a href="{{ url('/shop/royal-jelly') }}">
@@ -44,8 +44,6 @@
                 <form action="{{ url('/cart') }}" method="POST" class="side-by-side">
                     {!! csrf_field() !!}
                     <input type="hidden" name="id" value="9">
-                    <input type="hidden" name="name" value="hha">
-                    <input type="hidden" name="price" value="39.99">
                     <input type="submit" class="btn btn-success btn-lg" value="Buy Now">
                 </form>  
                 <br><br>
