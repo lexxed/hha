@@ -1,5 +1,8 @@
 @extends('master')
 
+@section('title', 'Contact Us - ' . config('constants.domainUrl'))
+@section('description', '')
+
 @section('content')
 
     <div class="container">
@@ -8,7 +11,8 @@
 		 To contact us please email to 
 		 <br><br>
 		 <b>{{ config('constants.supportEmail') }}</b><br>
-		 * All emails will be replied within <b>24 hours</b> during working days.
+		 <br>
+		 * All emails will be replied within <b>24 hours</b> during business days.
 		 <br><br>
 		 <b>Mailing Address:</b><br>
 		 HHA Jelly Paper<br>

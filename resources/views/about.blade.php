@@ -1,5 +1,8 @@
 @extends('master')
 
+@section('title', 'About Us - ' . config('constants.domainUrl'))
+@section('description', '')
+
 @section('content')
 
     <div class="container">

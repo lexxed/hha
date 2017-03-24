@@ -57,4 +57,10 @@ footer {
     border: 0 none;
     box-shadow: none;
 }
+
+h1 {
+  font-size: 24px;
+  font-weight: bold;
+  padding-top:10px;
+}
     

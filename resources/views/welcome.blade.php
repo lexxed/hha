@@ -37,6 +37,7 @@
 
                 <img src="{{ asset('img/hha/002.jpg') }}" alt="product images" class="img-thumbnail"><br><br>
                 <img src="{{ asset('img/hha/003.jpg') }}" alt="product images" class="img-thumbnail"><br><br>
+
             </div> <!-- end col-md-8 -->
 
             <div class="col-md-8" style="font-size:25px;">
@@ -48,9 +49,57 @@
                 </form>  
                 <br><br>
                 <img src="{{ asset('img/wepayshippingsmall.png') }}" alt="we pay shipping" class="img-thumbnail img-thumbnail-noborder">
-                
-            </div> <!-- end col-md-8 -->
+            </div> <!-- end col-md-8 -->        
+
+
         </div> <!-- end row -->   
+
+            <p><h1>User's Reviews</h1></p>
+            <div class="row">
+                <div class="col-md-2">
+                    <img src="{{ asset('img/hha/sample001.png') }}" alt="users review photos" class="img-thumbnail"><br><br>
+                </div>
+                <div class="col-md-10">
+                    <img src="{{ asset('img/stars.png') }}" alt="4 stars" class="img-thumbnail img-thumbnail-noborder">
+                    <b>Satisfied with the Royal Jelly Paper</b><br>
+                    Written by Jennif*** on 8 March 2017<br><br>
+                    Useful in removing my make up. I keep it with me all the time.
+                </div>
+            </div>          
+            <div class="row">
+                <div class="col-md-2">
+                    <img src="{{ asset('img/hha/sample002.png') }}" alt="users review photos" class="img-thumbnail"><br><br>
+                </div>
+                <div class="col-md-10">
+                    <img src="{{ asset('img/stars.png') }}" alt="4 stars" class="img-thumbnail img-thumbnail-noborder">
+                    <b>Very happy with the cleanser</b><br>
+                    Written by Wendy W*** on 23 Feb 2017<br><br>
+                    Love this stuff! Removes everything and doesn't irritate my oily skin.
+                    This will get eye make up and everything off your skin.
+                </div>
+            </div>   
+            <div class="row">
+                <div class="col-md-2">
+                    <img src="{{ asset('img/hha/sample003.png') }}" alt="users review photos" class="img-thumbnail"><br><br>
+                </div>
+                <div class="col-md-10">
+                    <img src="{{ asset('img/stars.png') }}" alt="4 stars" class="img-thumbnail img-thumbnail-noborder">
+                    <b>it's very easy to use</b><br>
+                    Written by Joey Li**  on 11 Feb 2017<br><br>
+                    I don't use other cleanser after using hha jelly paper. My skin looks so much better for cutting out normal foaming cleansers. It's softer and healthier looking. After cleansing my skin would often feel tight or just look irritated. I also never realised how bad my usual cleansers were at removing makeup until I tried this royal jelly paper. 
+                </div>
+            </div>    
+            <div class="row">
+                <div class="col-md-2">
+                    <img src="{{ asset('img/hha/sample004.png') }}" alt="users review photos" class="img-thumbnail"><br><br>
+                </div>
+                <div class="col-md-10">
+                    <img src="{{ asset('img/stars.png') }}" alt="4 stars" class="img-thumbnail img-thumbnail-noborder">
+                    <b>Bought as gift for my friend</b><br>
+                    Written by Tan Wei Ti** on 5 Jan 2017<br><br>
+                    Delivery was fast. will buy again.
+                </div>
+            </div>                
 
         <br><br>     
 

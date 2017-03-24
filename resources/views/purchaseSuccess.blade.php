@@ -5,8 +5,6 @@
     <div class="container">
         <p>
         	<a href="{{ url('/') }}">Home</a> / 
-        	<a href="{{ url('cart') }}">Cart</a> / 
-            <a href="{{ url('checkout') }}">Customer Information</a> / 
         	Order Confirmation
         </p>
         <h1>Order Confirmation</h1>

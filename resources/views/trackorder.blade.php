@@ -1,5 +1,8 @@
 @extends('master')
 
+@section('title', 'Track Your Order - ' . config('constants.domainUrl'))
+@section('description', '')
+
 @section('content')
 
     <div class="container">
@@ -11,6 +14,7 @@
 		<a href="http://www.singpost.com/" target="_blank">singpost.com</a> to track.<br>
 		For tracking number starting with 'SGP' please go to 
 		<a href="http://www.qxpress.asia/eng/html/customer_tracking_view.html?value=&ccm=Y" target="_blank">shipping company</a> to track.<br>
+		All orders will be shipped within 2-3 business days.
 		<br><br>
 
 		<b>Shipped on: 14 March 2017</b><br>
