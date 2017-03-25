@@ -5,6 +5,7 @@ namespace App\Exceptions;
 use Exception;
 use Illuminate\Auth\AuthenticationException;
 use Illuminate\Foundation\Exceptions\Handler as ExceptionHandler;
+use App\Mail\site_error;
 
 class Handler extends ExceptionHandler
 {
@@ -32,6 +33,25 @@ class Handler extends ExceptionHandler
      */
     public function report(Exception $exception)
     {
+
+        if ($exception instanceof \Exception) {
+            // emails.exception is the template of your email
+            // it will have access to the $error that we are passing below
+            //\Mail::send('emails.site_error', ['error' => $exception->getMessage()], function ($m) {
+            //    $m->to('lexx.tham@gmail.com', 'HHA error')->subject('hhajellypaper Error');
+            //});
+            
+            // add request info to err msg
+            //$lc1= '';
+            try{
+                $request= request();
+            }catch (Exception $e2){}
+
+            $errormsg = $exception->getMessage();
+            \Mail::to(env('MAIL_ADMIN'))->send(new site_error($errormsg, $request));
+
+        }    
+
         parent::report($exception);
     }
 

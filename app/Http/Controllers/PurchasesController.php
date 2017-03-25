@@ -64,7 +64,9 @@ class PurchasesController extends Controller
         //dd($customerinformation);             
 
     	# send email to admin notify new order
-    	\Mail::to("lexx.tham@gmail.com")->send(new admin_new_order($customerinformation, $customer, $cartitem, $cartTotalCents));
+    	//\Mail::to("lexx.tham@gmail.com")->send(new admin_new_order($customerinformation, $customer, $cartitem, $cartTotalCents));
+        \Mail::to(env('MAIL_ADMIN'))->send(new admin_new_order($customerinformation, $customer, $cartitem, $cartTotalCents));
+        
         # mail to the email that the customer use on stripe
         \Mail::to($customer->email)->send(new cust_new_order($customerinformation, $customer, $cartitem, $cartTotalCents));      
 

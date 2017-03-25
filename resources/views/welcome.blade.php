@@ -13,6 +13,11 @@
 
         <div class="row">
             <div class="col-md-8">
+
+                <h1>HHA Royal Jelly Paper</h1>
+                Korea's best selling 3-in-1 Make up removal, facial cleanser and skin care protection.The Royal Jelly deeply nourishes skin, improves skins radiance, leaving skin soft and fair. It also has excellent anti-bacterial properties.
+                <br><br>
+
                 <img src="{{ asset('img/usagekorean.png') }}" alt="product images" class="img-thumbnail"><br><br>
 
                 <b>Easy-to-carry:</b><br>
