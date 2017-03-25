@@ -1,5 +1,5 @@
 @extends('master')
-
+@section('title', 'Checkout - ' . config('constants.brandName') )
 @section('content')
 
     <div class="container">

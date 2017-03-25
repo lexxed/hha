@@ -15,6 +15,7 @@
     <link rel="shortcut icon" href="{{ asset('img/favicon.png') }}">
 </head>
 <body>
+@include('partials.analytics')
 
     <header>
 
