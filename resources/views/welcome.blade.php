@@ -6,7 +6,7 @@
 @section('content')
 
     <a href="{{ url('/shop/royal-jelly') }}">
-        <img src="{{ asset('img/banner.png') }}" alt="product images" class="img-thumbnail img-thumbnail-noborder">
+        <img src="{{ asset('img/banner.png') }}" alt="{{ config('constants.brandName') }} banner" class="img-thumbnail img-thumbnail-noborder">
     </a>
     <br><br>
     <div class="container">  
@@ -18,7 +18,7 @@
                 Korea's best selling 3-in-1 Make up removal, facial cleanser and skin care protection.The Royal Jelly deeply nourishes skin, improves skins radiance, leaving skin soft and fair. It also has excellent anti-bacterial properties.
                 <br><br>
 
-                <img src="{{ asset('img/usagekorean.png') }}" alt="product images" class="img-thumbnail"><br><br>
+                <img src="{{ asset('img/usagekorean.png') }}" alt="{{ config('constants.footercopyright') }} korean" class="img-thumbnail"><br><br>
 
                 <b>Easy-to-carry:</b><br>
                 The HHA Facial Paper can be easily carried in bags to cleanse and refresh your skin anytime anywhere, at the office or on a trip.
@@ -40,8 +40,8 @@
                 Hamamelis Virginiana extract, Natural bee propolis,  Aloe Barbadensis
                 <br><br>
 
-                <img src="{{ asset('img/hha/002.jpg') }}" alt="product images" class="img-thumbnail"><br><br>
-                <img src="{{ asset('img/hha/003.jpg') }}" alt="product images" class="img-thumbnail"><br><br>
+                <img src="{{ asset('img/hha/002.jpg') }}" alt="hha" class="img-thumbnail"><br><br>
+                <img src="{{ asset('img/hha/003.jpg') }}" alt="royal jelly" class="img-thumbnail"><br><br>
 
             </div> <!-- end col-md-8 -->
 
@@ -54,11 +54,24 @@
                 </form>  
                 <br><br>
                 <img src="{{ asset('img/wepayshippingsmall.png') }}" alt="we pay shipping" class="img-thumbnail img-thumbnail-noborder">
+                <br><br>
+                <h4>My hand is applied with various makeups.</h4>
+                <img src="{{ asset('img/hha/t001.png') }}" alt="hha cleanser" class="img-thumbnail"><br><br>
+                <h4>After using just 1 sheet of {{ config('constants.brandName') }}.</h4>
+                <img src="{{ asset('img/hha/t002.png') }}" alt="hha cleanser" class="img-thumbnail"><br><br>
+                <h4>Take 1 sheet of {{ config('constants.brandName') }} and rinse with water</h4>
+                <img src="{{ asset('img/hha/t003.png') }}" alt="hha cleanser" class="img-thumbnail"><br><br>
+                <h4>Many bubbles are formed.</h4>
+                <img src="{{ asset('img/hha/t004.png') }}" alt="hha cleanser" class="img-thumbnail"><br><br>
+                <h4>As an acid-balanced cleanser it can will enable deep and soft cleansing of your skin.</h4>
+                <img src="{{ asset('img/hha/t005.png') }}" alt="hha cleanser" class="img-thumbnail"><br><br>
+                <h4>After wash the skin will feel moist and hydrated. It is good for sensitive skin and it has the antibacterial properties of Royal Jelly.</h4>
+                <img src="{{ asset('img/hha/t006.png') }}" alt="hha cleanser" class="img-thumbnail"><br><br>
+
             </div> <!-- end col-md-8 -->        
-
-
         </div> <!-- end row -->   
 
+        <div class="row">
             <p><h1>User's Reviews</h1></p>
             <div class="row">
                 <div class="col-md-2">
@@ -106,8 +119,18 @@
                 </div>
             </div>                
 
-        <br><br>     
-
+	       	<div class="col-md-8" style="font-size:25px;">
+	            <form action="{{ url('/cart') }}" method="POST" class="side-by-side">
+	                {!! csrf_field() !!}
+	                <input type="hidden" name="id" value="9">
+	                <input type="submit" class="btn btn-success btn-lg" value="Buy Now">
+	            </form>  
+	            SGD 39.99
+                <br><br>
+                <img src="{{ asset('img/wepayshippingsmall.png') }}" alt="we pay shipping" class="img-thumbnail img-thumbnail-noborder">
+                <br><br>	            
+            </div>
+        </div> <!-- end row -->   
 
 
     </div> <!-- end container -->
