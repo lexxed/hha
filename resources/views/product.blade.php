@@ -1,7 +1,7 @@
 @extends('master')
 
-@section('title', 'HHA Royal Jelly Paper 100pcs Wholesale Prices HHA&#174;')
-@section('description', 'Buy HHA Royal Jelly Paper Free Shipping at Bulk Prices. Makeup Remover and Cleanser made of Royal Jelly')
+@section('title', $product->pagetitle)
+@section('description', $product->pagedescription)
 
 @section('content')
 
