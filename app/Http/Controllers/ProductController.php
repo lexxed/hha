@@ -34,7 +34,7 @@ class ProductController extends Controller
     public function show($slug)
     {
         $product = Product::where('slug', $slug)->firstOrFail();
-        $interested = Product::where('slug', '!=', $slug)->get()->random(4);
+        $interested = Product::where('slug', '!=', $slug)->where('display',1)->get()->random(1);
 
         //dd($product->id);
         //$product_images = Product_images::find($product->id);

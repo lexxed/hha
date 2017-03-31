@@ -40,9 +40,11 @@ class Handler extends ExceptionHandler
                 $request= request();
             }catch (Exception $e2){}
 
-            $errormsg = $exception->getMessage();
-            \Mail::to(env('MAIL_ADMIN'))->send(new site_error($errormsg, $request));
-
+            # send email only if .env APP_EMAIL_ERROR is true
+            if (env('APP_EMAIL_ERROR')) {
+                $errormsg = $exception->getMessage();
+                \Mail::to(env('MAIL_ADMIN'))->send(new site_error($errormsg, $request));
+            }    
         }           
 
         parent::report($exception);

@@ -1,7 +1,7 @@
 @extends('master')
 
 @section('title', 'HHA Royal Jelly Paper reviews, photo | Wholesale Prices HHA&#174;')
-@section('description', 'Free Shipping and Returns. #1 Best Selling Portable Oil Cleanser and Makeup Remover that&#039;s gentle on the skin. Botanical Formula, Antibacterial')
+@section('description', 'Free Shipping and Returns. #1 Best Selling Portable Oil Cleanser and Makeup Remover that&#039;s gentle on the skin. Botanical Formula, Antibacterial.')
        
 @section('content')
 
@@ -54,7 +54,8 @@
                 </form>  
                 <br><br>
                 <img src="{{ asset('img/wepayshippingsmall.png') }}" alt="we pay shipping" class="img-thumbnail img-thumbnail-noborder">
-                <br><br>
+                <br><br>                
+                <p><h1>Photos of Usage</h1></p>
                 <h4>My hand is applied with various makeups.</h4>
                 <img src="{{ asset('img/hha/t001.png') }}" alt="hha cleanser" class="img-thumbnail"><br><br>
                 <h4>After using just 1 sheet of {{ config('constants.brandName') }}.</h4>
@@ -73,7 +74,7 @@
 
         <div class="row">
         	<div class="col-md-12">
-	            <p><h1>User's Reviews</h1></p>
+	            <p><h1>Customer's Reviews of {{ config('constants.brandName') }}</h1></p>
 	            <div class="row">
 	                <div class="col-md-2">
 	                    <img src="{{ asset('img/hha/sample001.png') }}" alt="users review photos" class="img-thumbnail"><br><br>

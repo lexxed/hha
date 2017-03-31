@@ -35,14 +35,17 @@
                 {{--
                 <li class="{{ set_active('shop') }}"><a href="{{ url('/shop') }}">Products</a></li>
                 --}}
+                <li><a href="{{ url('/shop') }}">Products</a></li>
                 <li><a href="{{ url('/about') }}">About Us</a></li>
                 <li><a href="{{ url('/contact-us') }}">Contact Us</a></li>
                 <li><a href="{{ url('/track-order') }}">Track Your Order</a></li>
               </ul>
               <ul class="nav navbar-nav navbar-right">
+                {{--
                 <li class="{{ set_active('wishlist') }}">
                     <a href="{{ url('/wishlist') }}">Wishlist ({{ Cart::instance('wishlist')->count(false) }})</a>
                 </li>
+                --}}
                 <li class="{{ set_active('cart') }}">
                     <a href="{{ url('/cart') }}">Cart ({{ Cart::instance('default')->count(false) }})</a>
                 </li>
