@@ -106,8 +106,8 @@
                 </tbody>
             </table>
 
-            {{--    <a href="{{ url('/shop') }}" class="btn btn-primary btn-lg">Continue Shopping</a> &nbsp; --}}
-            <a href="{{ url('/checkout') }}" class="btn btn-success btn-lg">Proceed to Checkout</a>
+            <a href="{{ url('/shop') }}" class="btn btn-primary btn-lg">Continue Shopping</a> &nbsp;
+            <a href="{{ url('/checkout') }}" class="btn btn-success btn-lg">Checkout</a>
 
             
         @else
