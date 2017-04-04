@@ -17,6 +17,9 @@
 		All orders will be shipped within 2-3 business days.
 		<br><br>
 
+		<b>Shipped on: 03 April 2017</b><br>
+		Mazita Abd Ghani  RC692815204SG<br>
+		<br>
 		<b>Shipped on: 14 March 2017</b><br>
 		JOEY T***  SGP100946340<br>
 		<br>

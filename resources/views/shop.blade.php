@@ -1,5 +1,8 @@
 @extends('master')
 
+@section('title', 'Hhajellypaper.com: Cosmetics, Beauty Products, Slimming Products.')
+@section('description', 'Discover the latest in Beauty & Slimming. Explore our unrivaled selection of makeup, skin care & emerging brands.')
+
 @section('content')
 
     <div class="container">
