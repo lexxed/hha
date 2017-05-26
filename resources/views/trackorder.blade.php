@@ -17,6 +17,10 @@
 		All orders will be shipped within 2-3 business days.
 		<br><br>
 
+ 
+		<b>Shipped on: 25 May 2017</b><br>
+		Gisele  RC245143835SG<br>
+		<br>
 		<b>Shipped on: 03 April 2017</b><br>
 		Mazita Abd Ghani  RC692815204SG<br>
 		<br>
