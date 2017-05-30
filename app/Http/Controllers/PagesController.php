@@ -3,13 +3,16 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Product;
 
 class PagesController extends Controller
 {
 
     public function home() 
 	{
-		return view('welcome');
+		$product = Product::where('slug', 'royal-jelly')->firstOrFail();
+
+		return view('welcome')->with(['product' => $product]);
 	}   
 
     public function about() 

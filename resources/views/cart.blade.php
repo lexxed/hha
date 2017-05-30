@@ -59,7 +59,7 @@
                                 <option {{ $item->qty == 10 ? 'selected' : '' }}>10</option>
                             </select>
                         </td>
-                        <td>${{ $item->subtotal }}</td>
+                        <td>${{ number_format($item->subtotal, 2, '.', ',') }}</td>
                         <td class=""></td>
                         <td>
                             <form action="{{ url('cart', [$item->rowId]) }}" method="POST" class="side-by-side">

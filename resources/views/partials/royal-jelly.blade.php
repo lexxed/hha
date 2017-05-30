@@ -89,7 +89,7 @@
                              <input type="hidden" name="id" value="9">
                              <input type="submit" class="btn btn-success btn-lg" value="Buy Now">
                         </form>  
-                        SGD 39.99
+                        SGD {{ $product->price }}
                         <br><br>
                         <img src="{{ asset('img/wepayshippingsmall.png') }}" alt="we pay shipping" class="img-thumbnail img-thumbnail-noborder">
                         <br><br>                    
